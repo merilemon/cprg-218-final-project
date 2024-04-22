@@ -1,0 +1,25 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 50px;
+    color: #FFCC33;
+}
+
+h2 {
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+h3 {
+    color: #1a237e;
+    line-height: 3rem;
+    font-weight: 500;
+}
+p {
+    padding-bottom: 1.5rem;
+}
