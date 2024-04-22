@@ -15,7 +15,18 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+/* footer date */
+
 document.getElementById('yr').innerHTML = new Date().getFullYear();
 
-/* footer date */
+// button
+
+document.getElementById('myButton').addEventListener('click', function() {
+  var button = document.getElementById('myButton');
+  if (button.innerText === 'submit') {
+      button.innerText = 'just kidding!';
+  } else {
+      button.innerText = 'submit';
+  }
+});
 
