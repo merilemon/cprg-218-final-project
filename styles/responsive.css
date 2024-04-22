@@ -41,7 +41,9 @@
     }
     .contentimg {
         width: 100%;
-        height: 100%;x
+        height: 100%;
     }
-
+    .formbox {
+        flex-direction: column;
+    }
 }
